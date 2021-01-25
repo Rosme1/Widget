@@ -1,9 +1,7 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 .all{
-    margin: auto;
     box-sizing: border-box;
 }
 .content{
@@ -19,7 +17,7 @@
     width: 100%;
 }
 .item-content{
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     width: 100%;
     box-sizing: border-box;
     margin:auto;
@@ -36,10 +34,17 @@
 .author{
  font-size: 13px;
 }
+
 .date{
     font-size: 11px;
-    margin-top: 10px;
+    margin-top: 20px;
+    height: 25px;
 }
+
+.text-date{
+    margin-left: 5px;
+}
+
 .black{
     margin-bottom: 0px;
 }
@@ -47,4 +52,8 @@
     float: left;
     height:auto;
     width: auto;
+}
+.ico{
+    width: 13px;
+    float: left;
 }
